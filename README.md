@@ -34,6 +34,12 @@ PosadasDeCodigo/
 │   ├── 03_test.txt        # Input de prueba
 │   ├── Day 3: Part One.md # Descripción parte 1
 │   └── Day 3: Part Two.md # Descripción parte 2
+├── 04/                     # Día 4: Printing Department
+│   ├── 04.py              # Solución en Python
+│   ├── 04.txt             # Input del problema
+│   ├── 04_test.txt        # Input de prueba
+│   ├── Day 4: Part One.md # Descripción parte 1
+│   └── Day 4: Part Two.md # Descripción parte 2
 └── README.md              # Este archivo
 ```
 
@@ -96,6 +102,20 @@ PosadasDeCodigo/
 - `max_joltage_for_bank()`: Encuentra el máximo voltaje con dos dígitos
 - `best_joltage_subsequence()`: Algoritmo greedy para encontrar la mejor subsecuencia
 
+### Día 4: Printing Department 📄
+**Problema**: Optimizar el acceso de montacargas a rollos de papel en una grilla, eliminando rollos accesibles iterativamente.
+
+**Conceptos clave**:
+- Navegación en grillas 2D
+- Algoritmos de vecindad (8 direcciones)
+- Simulación iterativa
+- Procesamiento de archivos
+
+**Funciones principales**:
+- `is_accessible()`: Verifica si un rollo tiene menos de 4 vecinos
+- `count_accessible_rolls()`: Cuenta rollos accesibles iniciales
+- `total_removable_rolls()`: Simula eliminación iterativa hasta completar
+
 ## 🛠️ Características del Código
 
 ### Estilo y Convenciones
@@ -110,6 +130,7 @@ PosadasDeCodigo/
 - **Día 1**: Algoritmo matemático para contar zeros sin simular cada paso
 - **Día 2**: Detección eficiente de patrones repetitivos
 - **Día 3**: Algoritmo greedy con stack para subsecuencias óptimas
+- **Día 4**: Comentarios detallados en español para facilitar el aprendizaje
 
 ## 🎯 Objetivos de Aprendizaje
 
@@ -133,7 +154,7 @@ No dudes en crear un pull request o abrir un issue.
 
 ## 📚 Recursos Adicionales
 
-- [Advent of Code 2024](https://adventofcode.com/2024)
+- [Advent of Code 2025](https://adventofcode.com/2025)
 - [Posadas de Código](https://posadasdecodigo.com)
 - [Documentación de Python](https://docs.python.org/3/)
 
