@@ -40,6 +40,12 @@ PosadasDeCodigo/
 │   ├── 04_test.txt        # Input de prueba
 │   ├── Day 4: Part One.md # Descripción parte 1
 │   └── Day 4: Part Two.md # Descripción parte 2
+├── 05/                     # Día 5: Cafeteria
+│   ├── 05.py              # Solución en Python
+│   ├── 05.txt             # Input del problema
+│   ├── 05_test.txt        # Input de prueba
+│   ├── Day 5: Part One.md # Descripción parte 1
+│   └── Day 5: Part Two.md # Descripción parte 2
 └── README.md              # Este archivo
 ```
 
@@ -116,6 +122,21 @@ PosadasDeCodigo/
 - `count_accessible_rolls()`: Cuenta rollos accesibles iniciales
 - `total_removable_rolls()`: Simula eliminación iterativa hasta completar
 
+### Día 5: Cafeteria 🍽️
+**Problema**: Determinar qué ingredientes están frescos basándose en rangos de IDs y fusionar rangos superpuestos para contar IDs únicos.
+
+**Conceptos clave**:
+- Procesamiento de rangos numéricos
+- Fusión de intervalos superpuestos
+- Validación de datos contra rangos
+- Algoritmos de ordenamiento
+
+**Funciones principales**:
+- `parse_input()`: Separa rangos frescos e IDs disponibles del archivo
+- `is_fresh()`: Verifica si un ID está dentro de algún rango fresco
+- `merge_ranges()`: Fusiona rangos superpuestos en una lista consolidada
+- `count_total_fresh_ids()`: Cuenta IDs únicos en rangos fusionados
+
 ## 🛠️ Características del Código
 
 ### Estilo y Convenciones
@@ -131,6 +152,7 @@ PosadasDeCodigo/
 - **Día 2**: Detección eficiente de patrones repetitivos
 - **Día 3**: Algoritmo greedy con stack para subsecuencias óptimas
 - **Día 4**: Comentarios detallados en español para facilitar el aprendizaje
+- **Día 5**: Fusión eficiente de rangos y nomenclatura en inglés con comentarios en español
 
 ## 🎯 Objetivos de Aprendizaje
 
