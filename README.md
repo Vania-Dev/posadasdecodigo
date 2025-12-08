@@ -46,6 +46,24 @@ PosadasDeCodigo/
 │   ├── 05_test.txt        # Input de prueba
 │   ├── Day 5: Part One.md # Descripción parte 1
 │   └── Day 5: Part Two.md # Descripción parte 2
+├── 06/                     # Día 6: Trash Compactor
+│   ├── 06.py              # Solución en Python
+│   ├── 06.txt             # Input del problema
+│   ├── 06_test.txt        # Input de prueba
+│   ├── Day 6: Part One.md # Descripción parte 1
+│   └── Day 6: Part Two.md # Descripción parte 2
+├── 07/                     # Día 7: Laboratories
+│   ├── 07.py              # Solución en Python
+│   ├── 07.txt             # Input del problema
+│   ├── 07_test.txt        # Input de prueba
+│   ├── Day 7: Part One.md # Descripción parte 1
+│   └── Day 7: Part Two.md # Descripción parte 2
+├── 08/                     # Día 8: Playground
+│   ├── 08.py              # Solución en Python
+│   ├── 08.txt             # Input del problema
+│   ├── 08_test.txt        # Input de prueba
+│   ├── Day 8: Part One.md # Descripción parte 1
+│   └── Day 8: Part Two.md # Descripción parte 2
 └── README.md              # Este archivo
 ```
 
@@ -137,6 +155,51 @@ PosadasDeCodigo/
 - `merge_ranges()`: Fusiona rangos superpuestos en una lista consolidada
 - `count_total_fresh_ids()`: Cuenta IDs únicos en rangos fusionados
 
+### Día 6: Trash Compactor 🗑️
+**Problema**: Resolver hojas de trabajo de matemáticas de cefalópodos donde los problemas están dispuestos horizontalmente con números verticales.
+
+**Conceptos clave**:
+- Transposición de matrices
+- Procesamiento de grillas 2D
+- Separación de bloques por columnas vacías
+- Lectura bidireccional (izquierda-derecha y derecha-izquierda)
+
+**Funciones principales**:
+- `read_matrix()`: Lee el archivo preservando espacios
+- `transpose()`: Convierte filas en columnas para facilitar el procesamiento
+- `separate_blocks()`: Agrupa columnas en problemas individuales
+- `process_block()`: Extrae números y operador, calcula el resultado
+- `solve_worksheet()`: Resuelve todos los problemas y suma los resultados
+- `solve_cephalopod_file()`: Versión alternativa que lee de derecha a izquierda
+
+### Día 7: Laboratories 🔬
+**Problema**: Simular el comportamiento de rayos de taquiones que se dividen al encontrar divisores en un manifold.
+
+**Conceptos clave**:
+- Búsqueda en anchura (BFS) con cola
+- Simulación de propagación de rayos
+- Conteo de divisiones y timelines
+- Interpretación many-worlds (múltiples universos)
+
+**Funciones principales**:
+- `count_splits_from_file()`: Cuenta cuántas veces se divide el rayo (Parte 1)
+- `count_timelines_from_file()`: Cuenta timelines finales bajo interpretación many-worlds (Parte 2)
+
+### Día 8: Playground 🎮
+**Problema**: Conectar cajas de conexión eléctricas en espacio 3D usando el algoritmo de Kruskal para encontrar componentes conectados.
+
+**Conceptos clave**:
+- Disjoint Set Union (Union-Find)
+- Algoritmo de Kruskal para MST
+- Distancia euclidiana en 3D
+- Componentes conectados en grafos
+
+**Funciones principales**:
+- `DSU`: Clase para estructura Union-Find con compresión de ruta
+- `read_points()`: Lee coordenadas 3D desde archivo
+- `solve()`: Conecta K pares más cercanos y calcula producto de 3 grupos mayores
+- `solve_part2()`: Encuentra la primera conexión que une todos los puntos
+
 ## 🛠️ Características del Código
 
 ### Estilo y Convenciones
@@ -153,6 +216,9 @@ PosadasDeCodigo/
 - **Día 3**: Algoritmo greedy con stack para subsecuencias óptimas
 - **Día 4**: Comentarios detallados en español para facilitar el aprendizaje
 - **Día 5**: Fusión eficiente de rangos y nomenclatura en inglés con comentarios en español
+- **Día 6**: Transposición de matrices y procesamiento bidireccional
+- **Día 7**: BFS eficiente con propagación de contadores para timelines
+- **Día 8**: Union-Find optimizado con compresión de ruta y unión por tamaño
 
 ## 🎯 Objetivos de Aprendizaje
 
@@ -179,6 +245,17 @@ No dudes en crear un pull request o abrir un issue.
 - [Advent of Code 2025](https://adventofcode.com/2025)
 - [Posadas de Código](https://posadasdecodigo.com)
 - [Documentación de Python](https://docs.python.org/3/)
+
+## 📊 Progreso
+
+- ✅ Día 1: Secret Entrance
+- ✅ Día 2: ID Validation
+- ✅ Día 3: Joltage Banks
+- ✅ Día 4: Printing Department
+- ✅ Día 5: Cafeteria
+- ✅ Día 6: Trash Compactor
+- ✅ Día 7: Laboratories
+- ✅ Día 8: Playground
 
 ## 📄 Licencia
 
