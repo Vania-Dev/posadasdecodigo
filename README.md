@@ -200,6 +200,18 @@ PosadasDeCodigo/
 - `solve()`: Conecta K pares más cercanos y calcula producto de 3 grupos mayores
 - `solve_part2()`: Encuentra la primera conexión que une todos los puntos
 
+### Día 9: Rectangle Selection 🟩
+**Problema**: Encontrar el rectángulo más grande usando solo tiles rojos y verdes, donde los rojos forman un loop conectado por verdes.
+
+**Conceptos clave**:
+- Flood fill (BFS)
+- Suma de prefijos 2D
+- Detección de regiones interiores/exteriores
+- Optimización de consultas de rectángulos
+
+**Funciones principales**:
+- `part2_opt()`: Encuentra el área máxima de rectángulos válidos usando suma de prefijos 2D para verificación O(1)
+
 ## 🛠️ Características del Código
 
 ### Estilo y Convenciones
@@ -219,6 +231,7 @@ PosadasDeCodigo/
 - **Día 6**: Transposición de matrices y procesamiento bidireccional
 - **Día 7**: BFS eficiente con propagación de contadores para timelines
 - **Día 8**: Union-Find optimizado con compresión de ruta y unión por tamaño
+- **Día 9**: Suma de prefijos 2D para verificación de rectángulos en O(1)
 
 ## 🎯 Objetivos de Aprendizaje
 
@@ -256,6 +269,7 @@ No dudes en crear un pull request o abrir un issue.
 - ✅ Día 6: Trash Compactor
 - ✅ Día 7: Laboratories
 - ✅ Día 8: Playground
+- ✅ Día 9: Rectangle Selection
 
 ## 📄 Licencia
 
