@@ -2,7 +2,7 @@
 
 ¡Bienvenido al repositorio de **Posadas de Código**! 🎄✨
 
-Este repositorio contiene las soluciones para los desafíos de programación del Advent of Code 2024, presentados por la comunidad de [Posadas de Código](https://posadasdecodigo.com).
+Este repositorio contiene las soluciones para los desafíos de programación del Advent of Code 2025, presentados por la comunidad de [Posadas de Código](https://posadasdecodigo.com).
 
 ## 📖 Acerca del Proyecto
 
