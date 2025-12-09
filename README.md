@@ -1,4 +1,4 @@
-# Posadas de Código - Advent of Code 2024
+# Posadas de Código - Advent of Code 2025
 
 ¡Bienvenido al repositorio de **Posadas de Código**! 🎄✨
 
@@ -64,6 +64,12 @@ PosadasDeCodigo/
 │   ├── 08_test.txt        # Input de prueba
 │   ├── Day 8: Part One.md # Descripción parte 1
 │   └── Day 8: Part Two.md # Descripción parte 2
+├── 09/                     # Día 9: Rectangle Selection
+│   ├── 09.py              # Solución en Python
+│   ├── 09.txt             # Input del problema
+│   ├── 09_test.txt        # Input de prueba
+│   ├── Day 9: Part One.md # Descripción parte 1
+│   └── Day 9: Part Two.md # Descripción parte 2
 └── README.md              # Este archivo
 ```
 
