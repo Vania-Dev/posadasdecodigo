@@ -70,6 +70,12 @@ PosadasDeCodigo/
 │   ├── 09_test.txt        # Input de prueba
 │   ├── Day 9: Part One.md # Descripción parte 1
 │   └── Day 9: Part Two.md # Descripción parte 2
+├── 10/                     # Día 10: Factory
+│   ├── 10.py              # Solución en Python
+│   ├── 10.txt             # Input del problema
+│   ├── 10_test.txt        # Input de prueba
+│   ├── Day 10: Part One.md # Descripción parte 1
+│   └── Day 10: Part Two.md # Descripción parte 2
 └── README.md              # Este archivo
 ```
 
@@ -218,6 +224,20 @@ PosadasDeCodigo/
 **Funciones principales**:
 - `part2_opt()`: Encuentra el área máxima de rectángulos válidos usando suma de prefijos 2D para verificación O(1)
 
+### Día 10: Factory 🏭
+**Problema**: Configurar máquinas de fábrica presionando botones para encender luces indicadoras y ajustar niveles de voltaje.
+
+**Conceptos clave**:
+- Álgebra lineal sobre GF(2) (operaciones XOR)
+- Programación lineal entera
+- Fuerza bruta con optimización
+- Sistemas de ecuaciones lineales
+
+**Funciones principales**:
+- `parse_line()`: Extrae patrones de luces, botones y voltajes de cada línea
+- `min_presses()`: Encuentra el mínimo número de presiones usando fuerza bruta
+- `solve_joltage_file()`: Resuelve el problema de voltajes usando programación lineal con scipy
+
 ## 🛠️ Características del Código
 
 ### Estilo y Convenciones
@@ -238,6 +258,7 @@ PosadasDeCodigo/
 - **Día 7**: BFS eficiente con propagación de contadores para timelines
 - **Día 8**: Union-Find optimizado con compresión de ruta y unión por tamaño
 - **Día 9**: Suma de prefijos 2D para verificación de rectángulos en O(1)
+- **Día 10**: Comentarios detallados en español para principiantes y uso de scipy para programación lineal
 
 ## 🎯 Objetivos de Aprendizaje
 
@@ -276,6 +297,7 @@ No dudes en crear un pull request o abrir un issue.
 - ✅ Día 7: Laboratories
 - ✅ Día 8: Playground
 - ✅ Día 9: Rectangle Selection
+- ✅ Día 10: Factory
 
 ## 📄 Licencia
 
