@@ -76,6 +76,13 @@ PosadasDeCodigo/
 │   ├── 10_test.txt        # Input de prueba
 │   ├── Day 10: Part One.md # Descripción parte 1
 │   └── Day 10: Part Two.md # Descripción parte 2
+├── 11/                     # Día 11: Network Paths
+│   ├── 11.py              # Solución en Python
+│   ├── 11.txt             # Input del problema
+│   ├── 11_test.txt        # Input de prueba
+│   ├── 11_test_part2.txt  # Input de prueba parte 2
+│   ├── Day 11: Part One.md # Descripción parte 1
+│   └── Day 11: Part Two.md # Descripción parte 2
 └── README.md              # Este archivo
 ```
 
@@ -238,6 +245,19 @@ PosadasDeCodigo/
 - `min_presses()`: Encuentra el mínimo número de presiones usando fuerza bruta
 - `solve_joltage_file()`: Resuelve el problema de voltajes usando programación lineal con scipy
 
+### Día 11: Network Paths 🌐
+**Problema**: Encontrar caminos en una red de dispositivos, contando rutas totales y rutas que pasan por dispositivos específicos.
+
+**Conceptos clave**:
+- Búsqueda en profundidad (DFS) con memoización
+- Grafos dirigidos y navegación de redes
+- Rastreo de estados visitados con frozenset
+- Optimización con programación dinámica
+
+**Funciones principales**:
+- `count_paths_from_file()`: Cuenta todos los caminos posibles desde un nodo inicial hasta el objetivo
+- `count_paths_with_devices()`: Cuenta caminos que DEBEN pasar por dispositivos específicos (dac, fft)
+
 ## 🛠️ Características del Código
 
 ### Estilo y Convenciones
@@ -259,6 +279,7 @@ PosadasDeCodigo/
 - **Día 8**: Union-Find optimizado con compresión de ruta y unión por tamaño
 - **Día 9**: Suma de prefijos 2D para verificación de rectángulos en O(1)
 - **Día 10**: Comentarios detallados en español para principiantes y uso de scipy para programación lineal
+- **Día 11**: DFS con memoización eficiente y rastreo de estados con frozenset para evitar recálculos
 
 ## 🎯 Objetivos de Aprendizaje
 
@@ -298,6 +319,7 @@ No dudes en crear un pull request o abrir un issue.
 - ✅ Día 8: Playground
 - ✅ Día 9: Rectangle Selection
 - ✅ Día 10: Factory
+- ✅ Día 11: Network Paths
 
 ## 📄 Licencia
 
