@@ -1,5 +1,7 @@
 # Posadas de Código - Advent of Code 2025
 
+![Posadas de Código](https://posadasdecodigo.com/assets/images/logo.png)
+
 ¡Bienvenido al repositorio de **Posadas de Código**! 🎄✨
 
 Este repositorio contiene las soluciones para los desafíos de programación del Advent of Code 2025, presentados por la comunidad de [Posadas de Código](https://posadasdecodigo.com).
@@ -83,6 +85,12 @@ PosadasDeCodigo/
 │   ├── 11_test_part2.txt  # Input de prueba parte 2
 │   ├── Day 11: Part One.md # Descripción parte 1
 │   └── Day 11: Part Two.md # Descripción parte 2
+├── 12/                     # Día 12: Christmas Tree Farm
+│   ├── 12.py              # Solución en Python
+│   ├── 12.txt             # Input del problema
+│   ├── 12_test.txt        # Input de prueba
+│   ├── Day 12: Part One.md # Descripción parte 1
+│   └── Day 12: Part Two.md # Descripción parte 2
 └── README.md              # Este archivo
 ```
 
@@ -258,6 +266,19 @@ PosadasDeCodigo/
 - `count_paths_from_file()`: Cuenta todos los caminos posibles desde un nodo inicial hasta el objetivo
 - `count_paths_with_devices()`: Cuenta caminos que DEBEN pasar por dispositivos específicos (dac, fft)
 
+### Día 12: Christmas Tree Farm 🎄
+**Problema**: Determinar si regalos con formas irregulares pueden colocarse en regiones bajo árboles de Navidad.
+
+**Conceptos clave**:
+- Verificación de área total vs. colocación geométrica
+- Parsing de formatos de entrada complejos
+- Optimización por aproximación (solución simplificada)
+- Análisis de formas 2D representadas como grillas
+
+**Funciones principales**:
+- Enfoque simplificado que verifica si el área total de los regalos cabe en la región
+- No implementa colocación real de formas (problema NP-completo de empaquetado)
+
 ## 🛠️ Características del Código
 
 ### Estilo y Convenciones
@@ -280,6 +301,7 @@ PosadasDeCodigo/
 - **Día 9**: Suma de prefijos 2D para verificación de rectángulos en O(1)
 - **Día 10**: Comentarios detallados en español para principiantes y uso de scipy para programación lineal
 - **Día 11**: DFS con memoización eficiente y rastreo de estados con frozenset para evitar recálculos
+- **Día 12**: Enfoque simplificado por área total en lugar de resolver el problema completo de empaquetado 2D
 
 ## 🎯 Objetivos de Aprendizaje
 
@@ -320,6 +342,7 @@ No dudes en crear un pull request o abrir un issue.
 - ✅ Día 9: Rectangle Selection
 - ✅ Día 10: Factory
 - ✅ Día 11: Network Paths
+- ✅ Día 12: Christmas Tree Farm
 
 ## 📄 Licencia
 
