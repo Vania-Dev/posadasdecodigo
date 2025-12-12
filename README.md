@@ -1,10 +1,10 @@
 # Posadas de Código - Advent of Code 2025
 
-![Posadas de Código](https://posadasdecodigo.com/assets/images/logo.png)
-
 ¡Bienvenido al repositorio de **Posadas de Código**! 🎄✨
 
 Este repositorio contiene las soluciones para los desafíos de programación del Advent of Code 2025, presentados por la comunidad de [Posadas de Código](https://posadasdecodigo.com).
+
+![Posadas de Código](AoC2025.png)
 
 ## 📖 Acerca del Proyecto
 
